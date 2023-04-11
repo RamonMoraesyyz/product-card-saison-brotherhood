@@ -1,0 +1,89 @@
+@font-face {
+  font-family: caviar dreams;
+  src: url(./caviar-dreams-bold.ttf);
+}
+
+
+body {
+  margin: 0;
+  padding: 0px;
+  
+}
+
+
+img {
+    border-radius: 10px;
+    height: 288px;
+    width: 288px;
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:row;
+  height: 100vh;
+  width: auto;
+  background-color: rgb(0, 0, 0);
+}
+
+.image {
+  height: 410px;
+  width: 300px;
+  padding: 5px;
+  border-radius: 0px;
+}
+
+.image1 {
+  position:relative;
+  right: 0%;
+  bottom: 0%;
+  height: 65px;
+  width: 65px;
+  padding: 5px;
+  border-radius: 0px;
+}
+
+
+
+.card {
+  background-color: rgb(248, 226, 64);
+  width: 300px;
+  height: 420px;
+  border-radius: 0px;
+  padding: 10px;
+  text-align: center;
+  justify-content:baseline;
+  
+
+}
+
+
+
+
+h1{
+ bottom: 10%;
+ font-family: caviar dreams;
+ 
+}
+
+h2{
+
+  font-family: caviar dreams;
+  font-size: 100%;
+  color: rgb(0, 0, 0);
+}
+
+h3{
+  
+  font-family: caviar dreams;
+  flex-direction: row;
+  align-items: center;
+  font-weight: bold;
+
+
+}
+
+
